@@ -5,7 +5,7 @@
   "main": "sortiment.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js --config nodemon.config.json"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,10 @@
     "nodemon": "^1.12.1"
   },
   "dependencies": {
+    "camaro": "^2.2.1",
     "express": "^4.16.2",
-    "node-libcurl": "^1.2.0"
+    "fast-xml-parser": "^2.7.4",
+    "jsonfile": "^4.0.0",
+    "moment": "^2.19.1"
   }
 }
